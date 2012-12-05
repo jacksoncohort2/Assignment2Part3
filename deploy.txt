@@ -1,0 +1,54 @@
+jackson@jackson:~/297/2$ vmc push
+Name> cmpe297-jessejac-part3
+
+Instances> 1
+
+1: sinatra
+2: other
+Framework> sinatra
+
+1: ruby18
+2: ruby19
+3: other
+Runtime> 2
+
+1: 64M
+2: 128M
+3: 256M
+4: 512M
+5: 1G
+Memory Limit> 128M
+
+Creating cmpe297-jessejac-part3... OK
+
+1: cmpe297-jessejac-part3.cloudfoundry.com
+2: none
+URL> cmpe297-jessejac-part3.cloudfoundry.com
+
+Updating cmpe297-jessejac-part3 ... OK
+
+Create services for application?> y
+
+1: mongodb 2.0
+2: mysql 5.1
+3: postgresql 9.0
+4: rabbitmq 2.4
+5: redis 2.6
+6: redis 2.4
+7: redis 2.2
+What kind?> 1
+
+Name?> mongodb-2eb66
+
+Creating service mongodb-2eb66... OK
+Binding mongodb-2eb66 to cmpe297-jessejac-part3... OK
+Create another service?> n
+
+Bind other services to application?> n
+
+Save configuration?> n
+
+Uploading cmpe297-jessejac-part3... OK
+Starting cmpe297-jessejac-part3... OK
+Checking cmpe297-jessejac-part3... OK
+
